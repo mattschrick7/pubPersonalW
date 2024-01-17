@@ -1,0 +1,272 @@
+.center-text{
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    margin-top:auto;
+}
+a {
+    color:#fff;
+}
+
+
+.container {
+    display: flex;
+  }
+  
+  .container img {
+    width: 44%;
+    margin-right: 35px;
+    margin-bottom: 50px;
+  }
+  
+  .container .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    width: 50.5%;
+    background-color: #333;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+  }
+  .container .title .first{
+    font-size: 40px;
+  }
+  .container .title .second {
+    font-size: 20px;
+  }
+  .container .caption {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+.footNav ul{
+    display:flex;
+    justify-content: center;
+    
+
+}
+.contact-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+
+}
+li{
+    
+    text-align: center;
+}
+    
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    font-size: 18px;
+        background-color:slategrey;
+          
+}
+
+#aboutmeTitle{
+    position:sticky;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    margin:auto;
+    clip-path: inset(20% 0 0 0);
+    margin-top:-10%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact-info p{
+    margin:1px;
+    padding:1px;
+}
+.description{
+    background-color: #333;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.titleProjects{
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.titleAbout{
+position: sticky;
+top:0;
+z-index: -1;
+background-color: #333;
+color: #fff;
+margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+.fun{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #333;
+    padding-bottom: 20px;
+}
+.fun div{
+    flex: 0 0 calc(50.0% - 15px);
+  margin: 5px;
+  height: 700px;
+  background-size: cover;
+}
+
+.proj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+  background-color: #333;
+  padding-bottom: 20px;
+}
+
+
+
+.proj div {
+  
+  position: relative;
+  flex: 0 0 calc(50.0% - 20px);
+  height: 700px;
+  background-size: cover;
+  
+  margin-top: 10px;
+  border: none;
+  padding-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-color:lightskyblue;
+  opacity: 0;
+  transition: all 0.3s ease;
+  padding-bottom: 0px;
+  border: none;
+  margin: 0;
+}
+
+.proj div:hover .overlay {
+  opacity: 0.7;
+}
+
+.overlaytext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+
+  
+
+    .footNav ul {
+
+        
+        display: flex;
+        justify-content: center;
+        z-index: 999;
+        list-style-type: none !important;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+        }
+              
+              /* Create horizontal list */
+        .footNav li {
+            
+        float: left;
+        }
+        .footNav li a {
+            
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          .intro{
+            background-color: #333;
+            margin: 20px;
+            color:#fff;
+            top:0;
+            z-index: -1;
+            position: sticky;
+          }
+          .topNav ul {
+            position:fixed;
+            Top:0;
+            z-index: 999;
+
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            margin-bottom: 25px;
+            padding-right: 907.5px;
+          }
+          
+          /* Create horizontal list */
+          .topNav li {
+            float: left;
+          }
+          
+          /* Style links */
+          .topNav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change color on hover */
+          .topNav li a:hover {
+            background-color:#333;
+          }
+        
+
